@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_wifi"
+        icon="@drawable/ic_wifi"
+        title="Home"
+        barColorWhenSelected="#FF9800"/>
+    <tab
+        id="@+id/tab_accounts"
+        icon="@drawable/ic_account_circle"
+        title="Accounts"
+        barColorWhenSelected="#03a9f4"/>
+</tabs>

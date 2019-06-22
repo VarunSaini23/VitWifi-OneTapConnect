@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VitWifi</string>
+    <string name="admob_app_id">ca-app-pub-4286405457898241~1758124090</string>
+    <string name="banner1_ad_unit_id">ca-app-pub-4286405457898241/6627307396</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

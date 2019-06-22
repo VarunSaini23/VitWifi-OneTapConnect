@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconwifi"/>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        app:mtf_backgroundColor="@color/cardview_shadow_start_color"
+        app:mtf_image="@drawable/ic_username"
+        app:mtf_labelColor="#ffffff"
+        app:mtf_openKeyboardOnFocus="true">
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Registration Number"
+            android:textColor="#ffffff"
+            android:textColorHint="#808080" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/colorPrimaryDark" />-->
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:id="@+id/materialTextFieldCaptcha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_backgroundColor="@color/cardview_shadow_start_color"
+        app:mtf_image="@drawable/ic_password"
+        app:mtf_labelColor="#ffffff"
+        app:mtf_openKeyboardOnFocus="true">
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="#808080" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <Button
+        android:id="@+id/btnAddAccount"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD ACCount"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_gravity="bottom|end|center_horizontal"
+        android:textSize="16sp"
+        android:text="Don't Worry . All your Credentials will be saved in your Device"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        android:layout_alignParentTop="true"
+        ads:adUnitId="@string/banner1_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

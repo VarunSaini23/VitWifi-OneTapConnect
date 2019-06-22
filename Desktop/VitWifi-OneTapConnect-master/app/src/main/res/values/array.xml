@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dialog_options">
+        <item>Select as Primary Account</item>
+        <item>Change Password</item>
+        <item>Delete Account</item>
+    </array>
+</resources>
